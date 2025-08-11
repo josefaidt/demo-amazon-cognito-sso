@@ -1,0 +1,7 @@
+{
+  "app": "pnpm tsx app.ts",
+  "outputsFile": "cdk.outputs.json",
+  "watch": {
+    "include": ["app.ts"]
+  }
+}

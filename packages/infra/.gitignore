@@ -1,0 +1,4 @@
+# no artifacts
+/cdk.out
+# no outputs
+/cdk.outputs.json
