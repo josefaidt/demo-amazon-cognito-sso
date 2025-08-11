@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm run --recursive --parallel dev",
+    "build": "pnpm run --recursive --parallel build",
+    "test": "pnpm run --recursive --parallel test",
+    "format": "biome format .",
+    "check": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.1"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
